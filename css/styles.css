@@ -65,16 +65,31 @@ body {
 }
 
 .mainimg {
+position: relative;
 width: 79%;
 float: left;
 border-radius: 5px;
+}
 
+.clickhere {
+  font-family: 'Playfair Display';
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  position: absolute;
+  top: 120px;
+  right: 273px;
+  color: #999999;
+  z-index: 10;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
 }
 
 .itemInfo {
   width: 30%;
   float: left;
-  padding-right: 25px;
+  padding-right: 15px;
   /*border: 1px solid black;*/
 }
 
