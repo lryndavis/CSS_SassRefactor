@@ -54,8 +54,10 @@ body {
 
 .container {
   width: 98%;
-  margin: 0 auto;
-  /*max-height: 1000px;*/
+  margin-top: 25px;
+  border: 1px solid black;
+  overflow: auto;
+
 }
 
 img {
@@ -63,30 +65,40 @@ img {
 }
 
 .mainimg {
-width: 35%;
+width: 79%;
 float: left;
-margin-top: 15px;
+border-radius: 5px;
+
 }
 
 .itemInfo {
-  width: 30%;
+  width: 39%;
+  float: right;
+  vertical-align: top;
+  border: 1px solid black;
+}
+
+.container2 {
+  width: 60%;
   float: left;
-  margin-right: 30px;
+    /*border: 1px solid black;*/
 }
 
 .gallery img {
-  float: left;
-  max-height: 175px;
-  padding-top: 10px;
-
+  /*border: 1px solid black;*/
+  float: right;
+  width: 100%;
+  padding-bottom: 25px;
+  border-radius: 5px;
 }
 
 .gallery {
-  width: 90%;
+  width: 20%;
   float: right;
+  /*border: 1px solid black;*/
 }
-
+/*
 .imgcontainer {
-  width: 25%;
+  width: 30%;
   float: right;
-}
+}*/
