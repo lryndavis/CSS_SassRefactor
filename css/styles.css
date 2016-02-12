@@ -55,6 +55,7 @@ body {
 .container {
   width: 98%;
   margin: 0 auto;
+  /*max-height: 1000px;*/
 }
 
 img {
@@ -69,5 +70,23 @@ margin-top: 15px;
 
 .itemInfo {
   width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gallery img {
+  float: left;
+  max-height: 175px;
+  padding-top: 10px;
+
+}
+
+.gallery {
+  width: 90%;
+  float: right;
+}
+
+.imgcontainer {
+  width: 25%;
   float: right;
 }
