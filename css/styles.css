@@ -71,16 +71,16 @@ body {
   font-weight: 700;
 }
 
-.itemInfo {
+.iteminfo {
   width: 30%;
   float: left;
   padding-right: 15px;
   /*border: 1px solid black;*/
 }
 
-.itemInfo p {
+ .iteminfo p {
   font-size: 16px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 li {
@@ -144,8 +144,9 @@ img:nth-child(3) {
 /*ADD TO CART BUTTON*/
 
 .button {
-  margin-top: 170px;
+  margin-top: 70px;
   margin-right: 40px;
+  width: 85%;
 }
 
 .button p {
@@ -166,7 +167,19 @@ img:nth-child(3) {
 /*MAILING FORM */
 
 .mailingform {
+  width: 85%;
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 100;
+  text-align: center;
+}
+
+input[type=text] {
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
 }
