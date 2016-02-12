@@ -24,6 +24,8 @@
   font-size: 1.15em;
   text-align: center;
   margin-bottom: 10px;
+
+
 }
 
 h1 {
@@ -49,7 +51,9 @@ body {
 
 
 .container {
-  width: 90%;
+  position: relative;
+  /*width: 90%;*/
+  width: 1050px;
   margin-top: 45px;
   margin-left: 60px;
   /*border: 1px solid black;*/
@@ -65,25 +69,29 @@ body {
 }
 
 .mainimg {
-position: relative;
-width: 79%;
-float: left;
-border-radius: 5px;
+  width: 79%;
+  float: left;
+  border-radius: 5px;
 }
 
 .clickhere {
-  font-family: 'Playfair Display';
+  font-family: 'Roboto';
+  text-transform: uppercase;
   font-size: 14px;
-  font-weight: 700;
-  font-style: italic;
+  font-weight: 100;
+
   position: absolute;
-  top: 120px;
-  right: 273px;
+  top: 0;
+  right: 175px;
   color: #999999;
-  z-index: 10;
-  border: 1px solid #999999;
+  z-index: 5;
+  /*border: 1px solid #999999;*/
   border-radius: 5px;
   padding: 0 5px 0 5px;
+}
+
+.clickhere:hover {
+  color: #fff;
 }
 
 .itemInfo {
@@ -110,15 +118,12 @@ border-radius: 5px;
   width: 100%;
   border-radius: 5px;
   padding-bottom: 20px;
+
 }
 
 .gallery {
+  padding-left: 5px;
   width: 20%;
   float: right;
   /*border: 1px solid black;*/
 }
-/*
-.imgcontainer {
-  width: 30%;
-  float: right;
-}*/
