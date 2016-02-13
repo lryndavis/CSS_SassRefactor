@@ -9,8 +9,8 @@
 
 ### Setup
 
-* View on [Github Pages](lryndavis.github.io)
-* Clone repository at [Github](http://lryndavis.github.io/Vintage_Shop_CSS_Review)
+* View on [Github Pages](http://lryndavis.github.io/Vintage_Shop_CSS_Review)
+* Clone repository at [Github](https://github.com/lryndavis/Vintage_Shop_CSS_Review.git)
 
 ### License
 MIT License. Copyright 2015 Epicodus.
