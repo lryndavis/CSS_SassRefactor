@@ -41,6 +41,7 @@ h1 {
   font-size: 13px;
   padding-right: 20px;
   color: #99004d;
+  letter-spacing: .2em;
 }
 
 a:hover {
@@ -193,8 +194,11 @@ input[type=text] {
   padding: 8px;
   width: 100%;
   border-radius: 5px;
+  border: 1px solid #99004d;
+  background-color: white;
 }
 
 input:focus {
   outline: none;
+  border: 1px solid black;
 }
