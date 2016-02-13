@@ -169,6 +169,10 @@ img:nth-child(3) {
   padding-top: 18px;
 }
 
+.gallery img:hover {
+  opacity: 0.50;
+}
+
 /*ADD TO CART BUTTON*/
 
 .button {
