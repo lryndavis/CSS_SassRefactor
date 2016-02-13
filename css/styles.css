@@ -25,6 +25,27 @@
   text-align: center;
   margin-bottom: 10px;
   margin-top: 10px;
+  position: relative;
+}
+
+.cart {
+  position: absolute;
+  top: 61px;
+  right: 10px;
+}
+
+.yourcart {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 100;
+  font-style: normal;
+  position: absolute;
+  top: 50px;
+  right: 35px;
+}
+
+.yourcart:hover {
+  color: #99004d;
 }
 
 h1 {
@@ -39,7 +60,7 @@ h1 {
   font-weight: 100;
   font-style: normal;
   font-size: 13px;
-  padding-right: 20px;
+  padding-right: 10px;
   color: #99004d;
   letter-spacing: .2em;
 }
@@ -66,12 +87,10 @@ body {
 }
 
 .container {
+  margin: 0 auto;
   position: relative;
-  /*width: 90%;*/
-  width: 1050px;
-  margin-top: 45px;
-  margin-left: 60px;
-  /*border: 1px solid black;*/
+  width: 1000px;
+  margin-top: 60px;
   overflow: auto;
 }
 
@@ -87,17 +106,16 @@ body {
 .iteminfo {
   width: 30%;
   float: left;
-  padding-right: 15px;
-  /*border: 1px solid black;*/
-}
-
- .iteminfo p {
-  font-size: 16px;
-  padding-top: 10px;
 }
 
 li {
   font-size: 14px;
+}
+
+.details {
+  margin-bottom: 30px;
+  width: 85%;
+  font-size: 16px;
 }
 
 /*IMAGE CONTAINER DIV*/
@@ -105,7 +123,6 @@ li {
 .container2 {
   width: 69%;
   float: left;
-    /*border: 1px solid black;*/
 }
 
 /*MAIN ITEM IMAGE*/
@@ -138,11 +155,9 @@ li {
   padding-left: 5px;
   width: 20%;
   float: right;
-  /*border: 1px solid black;*/
 }
 
 .gallery img {
-  /*border: 1px solid black;*/
   float: right;
   width: 100%;
   border-radius: 5px;
@@ -151,14 +166,12 @@ li {
 
 img:nth-child(2),
 img:nth-child(3) {
-  padding-top: 19px;
+  padding-top: 18px;
 }
 
 /*ADD TO CART BUTTON*/
 
 .button {
-  margin-top: 70px;
-  margin-right: 40px;
   width: 85%;
 }
 
@@ -166,21 +179,13 @@ img:nth-child(3) {
   text-transform: uppercase;
   font-size: 20px;
   text-align: center;
-  border: 1px solid #99004d;
   padding: 5px;
   border-radius: 5px;
-  color: #99004d;
-}
-
-.button:hover {
   background-color: #cc0066;
-  border-radius: 5px;
-}
-
-.button p:hover {
   color: white;
 }
-/*MAILING FORM */
+
+/*MAILING LIST FORM AND BUTTON*/
 
 .mailingform {
   width: 85%;
@@ -201,4 +206,27 @@ input[type=text] {
 input:focus {
   outline: none;
   border: 1px solid black;
+}
+
+.button2 {
+  width: 85%;
+}
+
+.button2 p {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #99004d;
+  padding: 5px;
+  border-radius: 5px;
+  color: #99004d;
+}
+
+.button2:hover {
+  background-color: #cc0066;
+  border-radius: 5px;
+}
+
+.button2 p:hover {
+  color: #fff;
 }
