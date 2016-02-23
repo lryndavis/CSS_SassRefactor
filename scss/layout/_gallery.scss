@@ -1,0 +1,48 @@
+/*MAIN ITEM IMAGE*/
+
+.mainimg {
+  width: 79%;
+  float: left;
+  border-radius: $br;
+}
+
+//TEXT ON IMAGE
+
+.clickhere {
+  @include text(1em, null, 100, $color-text-base, null, null);
+  @extend %upcase;
+  font-family: $stack-roboto;
+  position: absolute;
+  top: 0;
+  right: 175px;
+  z-index: 5;
+
+  &:hover {
+  color: $color-accent-sec;
+  }
+}
+
+
+/*IMAGE GALLERY */
+
+.gallery {
+  padding-left: 5px;
+  width: 20%;
+  float: right;
+}
+
+.gallery img {
+  float: right;
+  width: 100%;
+  border-radius: $br;
+  padding-bottom: 20px;
+
+  &:hover {
+  opacity: 0.50;
+  }
+}
+
+img:nth-child(2),
+img:nth-child(3) {
+  padding-top: 18px;
+}

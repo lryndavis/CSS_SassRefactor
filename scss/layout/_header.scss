@@ -1,0 +1,61 @@
+//Header Styling
+
+
+.header {
+  @include text(1.25em, null, 700, $color-text-base, 0.13em, italic);
+  @extend %upcase;
+  font-family: $stack-playfair;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+h1 {
+  @extend %center-margin;
+  padding-bottom: 5px;
+}
+
+//Cart Icon
+
+.cart {
+  position: absolute;
+  top: 61px;
+  right: 10px;
+}
+
+.yourcart {
+  @include text(0.7em, null, 100, $color-text-base, null, normal);
+  font-family: $stack-roboto;
+  position: absolute;
+  top: 50px;
+  right: 35px;
+
+  &:hover {
+    color: $color-accent-sec;
+  }
+}
+
+// Navbar Links
+
+.linkbar a {
+  @include text(0.8em, null, 100, $color-accent-sec, 0.2em, normal);
+  font-family: $stack-roboto;
+  text-decoration: none;
+  padding-right: 10px;
+
+  &:hover {
+    color: $color-text-base;
+  }
+}
+
+// HR
+
+hr.styledhr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}

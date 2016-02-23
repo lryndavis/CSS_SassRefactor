@@ -1,0 +1,35 @@
+// Descriptive Color Variables
+$white: #fff;
+$black: #000;
+$hot-pink: #cc0066;
+$magenta: #99004d;
+
+
+// Functional Color Variables
+
+$color-body: $white;
+$color-accent: $hot-pink;
+$color-accent-sec: $magenta;
+
+$color-text-light: $white;
+$color-text-base: $black;
+$color-border: $black;
+
+// Google Fonts
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+
+// Font Variables
+
+$stack-playfair: 'Playfair Display', serif;
+$stack-roboto: 'Roboto', serif;
+
+// Border Radius
+
+$br: 5px;
+
+//Asset Paths
+
+$path-img: '../img';
+
+//Media Query Breakpoints..at some point ?

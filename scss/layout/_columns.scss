@@ -1,0 +1,17 @@
+/*ITEM INFO COLUMN*/
+
+.subheader {
+  @include text(20px, null, 700, $color-text-base, null, null);
+  font-family: $stack-playfair;
+}
+
+.iteminfo {
+  width: 30%;
+  float: left;
+}
+
+.details {
+  margin-bottom: 30px;
+  width: 85%;
+  font-size: 0.95em;
+}

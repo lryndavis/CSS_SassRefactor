@@ -1,0 +1,10 @@
+// text
+
+@mixin text($size, $l-height: null, $weight: null, $color: null, $l-spacing:null, $f-style:null) {
+  font-size: $size;
+  line-height: $l-height;
+  weight: $weight;
+  color: $color;
+  letter-spacing: $l-spacing;
+  font-style: $f-style;
+}

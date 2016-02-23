@@ -1,0 +1,19 @@
+body {
+  @include text(1em, null, lighter, $black, 0.04em, normal);
+  font-family: $stack-roboto;
+}
+
+.container {
+  @extend %center-margin;
+  position: relative;
+  width: 1000px;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+/*IMAGE CONTAINER DIV*/
+
+.container2 {
+  width: 69%;
+  float: left;
+}

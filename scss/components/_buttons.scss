@@ -1,0 +1,40 @@
+/*ADD TO CART BUTTON*/
+
+.button {
+  width: 85%;
+}
+
+.button p {
+  @extend %upcase;
+  @extend %centered;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: $br;
+  background-color: $hot-pink;
+  color: $color-text-light;
+}
+
+//Mailing List Button
+
+.button2 {
+  width: 85%;
+
+  &:hover {
+    background-color: $color-accent;
+    border-radius: $br;
+  }
+}
+
+.button2 p {
+  @extend %upcase;
+  @extend %centered;
+  font-size: 20px;
+  border: 1px solid $color-accent-sec;
+  padding: 5px;
+  border-radius: $br;
+  color: $color-accent-sec;
+
+  &:hover {
+  color: $color-body;
+  }
+}

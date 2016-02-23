@@ -1,0 +1,32 @@
+/*BORDER BOX*/
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/*MAILING LIST FORM AND BUTTON*/
+
+input[type=text] {
+  padding: 8px;
+  width: 100%;
+  border-radius: $br;
+  border: 1px solid $color-accent-sec;
+  background-color: $color-body;
+
+  &:focus {
+  outline: none;
+  border: 1px solid $color-border;
+  }
+}
+
+// Mailing List Sign up Form
+.mailingform {
+  @include text(1em, null, 100, $color-text-base, null, italic);
+  @extend %centered;
+  font-family: $stack-playfair;
+  width: 85%;
+}
